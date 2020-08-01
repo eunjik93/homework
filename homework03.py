@@ -29,4 +29,4 @@ for tr in trs:
         'artist': artist
     }
     print(doc)
-db.music.insert_one(doc)
+    db.music.insert_one(doc)
